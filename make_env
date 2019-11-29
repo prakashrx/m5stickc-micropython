@@ -1,0 +1,4 @@
+VOLUMES = -v $(shell pwd)/src:/esp/m5stickc-idf
+DEVICES = --device /dev/ttyUSB0
+PORTS = 
+ENV = 
